@@ -25,16 +25,16 @@ console.log(z);
 // OUTPUT :
 // 11
 
-var a = 10;
-let b = a;
-console.log(a , b);
+var a1 = 10;
+let b1 = a;
+console.log(a1 , b1);
 // OUTPUT :
 // 10   10
 
-var a = 10;
-var b = a;
-const c = b + a;
-console.log(a , b , c);
+var a2 = 10;
+var b2 = a2;
+const c2 = b2 + a2;
+console.log(a2 , b2 , c2);
 
 // OUTPUT :
 // 10   10  20
