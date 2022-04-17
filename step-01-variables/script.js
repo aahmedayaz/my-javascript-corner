@@ -4,60 +4,43 @@
 // https://www.w3schools.com/js/js_arrays.asp
 // https://www.w3schools.com/js/js_objects.asp
 
-var x = 5;
-var y = 6;
-var z = x + y;
-console.log(z);
-// OUTPUT :
-// 11
+// ============================================================================================
+// Variables & DataType 
+// ============================================================================================
 
-let x = 5;
-let y = 6;
-let z = x + y;
-console.log(z);
-// OUTPUT :
-// 11
+var a = "AhmedAyaz";
+var b = 55;
+var c = true;
+var d = null;
+var e = undefined;
+var f;
+var y = {};
+var z = {
+    name : "ayaz" ,
+    age : 15 
+};
 
-x = 5;
-y = 6;
-z = x + y;
-console.log(z);
-// OUTPUT :
-// 11
-
-var a1 = 10;
-let b1 = a;
-console.log(a1 , b1);
-// OUTPUT :
-// 10   10
-
-var a2 = 10;
-var b2 = a2;
-const c2 = b2 + a2;
-console.log(a2 , b2 , c2);
+console.log(a,b,c,d,e,f,y,z);
+console.log(typeof(a) , typeof(b) , typeof(c) , typeof(d) , typeof(e) , typeof(f) , typeof(y) , typeof(z));
 
 // OUTPUT :
-// 10   10  20
+// /AhmedAyaz 55 true null undefined undefined {} { name: 'ayaz', age: 15 }
+// string number boolean object undefined undefined object object
 
-var $ = 1;
-var _ = 2;
-console.log($ + _);
+// ============================================================================================
+// True = 1 , False = 0
+// ============================================================================================
 
+let num1 = true + true;
+let num2 = true + false;
+let num3 = false + false;
+console.log(num1 , num2 , num3);
+console.log(typeof(num1) , typeof(num2) , typeof(num3));
 // OUTPUT :
-// 3
+// 2 1 0
+// number number number
 
-var $ = 10;
-var _ = 2;
-var a = "3";
-console.log($ + _ , a);
 
-// OUTPUT :
-// 12 3
-
-var $ = 10;
-var _ = 2;
-var a = "3";
-console.log($ + _ + a);
-
-// OUTPUT :
-// 123
+// ============================================================================================
+// Concept of Let & Const
+// ============================================================================================
